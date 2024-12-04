@@ -17,5 +17,5 @@
 
 
 Інструкція по збірці браузеру <br>
-Скопіювати папку в папку з вихідним кодом Chromium <br>
+Скопіювати папку `srs` в папку з вихідним кодом Chromium <br>
 `git clone https://github.com/Bruvamasc/Test_task_1.git`
