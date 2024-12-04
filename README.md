@@ -7,8 +7,8 @@
     - [зміна 2](src/third_party/blink/renderer/modules/canvas/canvas2d/base_rendering_context_2d.cc#L1767-L1822)
 2. Додав можливість збереження і завантаження cookies з JSON-файлу. Формат файлу: `[{"name":"example","value":"value123","domain":".example.com" }]`. Зміни знаходяться [у цьому](src/content/browser/storage_partition_impl.cc) файлі. <br>
     Реалізував 2 методи:
-    - [Завантаження cookies у браузер із JSON файлу](src/content/browser/storage_partition_impl.cc#184)
-    - [Збереження поточних cookies у JSON файл](src/content/browser/storage_partition_impl.cc#L248) <br>
+    - [Завантаження cookies у браузер із JSON файлу](src/content/browser/storage_partition_impl.cc#L187-L244)
+    - [Збереження поточних cookies у JSON файл](src/content/browser/storage_partition_impl.cc#L248-L276) <br>
 Також ось посилання на змінені ділянки коду:
     - [зміна 1](src/content/browser/storage_partition_impl.cc#L3578-L3584)
     - [зміна 2](src/content/browser/storage_partition_impl.cc#L3240-L3246)
